@@ -18,6 +18,7 @@
   
   function printproducts() {
     if (!productList[0]) {
+      console.log("sabad khalie")
       return;
     }
     console.log(productList);

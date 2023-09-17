@@ -20,6 +20,7 @@ const contacts = {
   
   function printcontacts() {
     if (!contactList[0]) {
+      console.log("kasi tu listet nist")
       return;
     }
     console.log(contactList);
