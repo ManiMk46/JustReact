@@ -1,14 +1,9 @@
-  const products = {
-    product: "",
-    price: "",
-   };
-
-   const productList: string[] = [];
+  const productList: any[] = [];
   
   function addProduct(product: string, price: number) {
-    const sabad = Object.create(products);
-    sabad.product = product;
-    sabad.price = price;
+    const sabad = {
+      product: product,
+      price: price, };
   
     productList.push(sabad);
   }
